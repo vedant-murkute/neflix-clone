@@ -1,0 +1,25 @@
+.nav {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: fixed;
+  left: 37px;
+  object-fit: contain;
+  width: 100px;
+}
+
+.nav__account-logo {
+  position: fixed;
+  right: 30px;
+  object-fit: contain;
+  width: 30px;
+}

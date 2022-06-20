@@ -1,0 +1,25 @@
+.billboard{
+    margin-top: 70px;
+    color: white;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+}
+
+.billboard__content{
+    margin-left: 40px;
+    padding-top: 150px;
+    width: 36%;
+}
+
+.billboard__button{
+    margin-right: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 2px;
+    color: white;
+    background-color: rgba(109,109,110,0.5);
+}
