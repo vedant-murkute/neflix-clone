@@ -4,7 +4,7 @@ import "./rows.css";
 export default function Rows(props) {
   const [movies, setMovies] = useState([]);
   const fetchURL = "https://api.themoviedb.org/3" + props.url;
-  const imageBaseURL = "https://image.tmdb.org/t/p/w200";
+  const imageBaseURL = "https://image.tmdb.org/t/p/original";
 
   useEffect(() => {
     async function fetchData() {

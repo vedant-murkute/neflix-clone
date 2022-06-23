@@ -6,11 +6,12 @@
 
 .rows h1{
     color: white;
+    font-size: 2vw;
 }
 
 .rows__image-container{
     display: flex;
-    gap: 13px;
+    gap: 10px;
     overflow-y: hidden;
     overflow-x: scroll;
 }
@@ -23,11 +24,24 @@
     cursor: pointer;
     border-radius: 4px;
     object-fit: contain;
-    width:200px;
+    max-width:11%;
     padding: 10px;
     transition: transform 0.5s;
 }
 
 .rows__images:hover{
     transform: scale(1.08);
+}
+
+@media (max-width: 770px) {
+    .rows__image-container{
+        gap: 6px;
+    }
+    .rows h1{
+        font-size: 3vw;
+    }
+
+    .rows__images{
+        max-width: 15%;
+    }
 }

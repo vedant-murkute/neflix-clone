@@ -1,12 +1,12 @@
-import Nav from './Nav.js'
-import Rows from "./Rows.js";
-import Billboard from './Billboard.js'
+import Nav from './Nav.jsx'
+import Rows from "./Rows.jsx";
+import Billboard from './Billboard.jsx'
 
 import requests from "./requests.js";
 
-import './App.css';
+import './Homepage.css';
 
-function App() {
+function Homepage() {
   return (
     <div>
       <Nav  />
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default Homepage;

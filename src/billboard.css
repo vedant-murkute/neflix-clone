@@ -1,7 +1,6 @@
 .billboard{
     margin-top: 70px;
     color: white;
-    object-fit: contain;
     background-size: cover;
     background-position: center center;
     height: 600px;
@@ -13,8 +12,16 @@
     width: 36%;
 }
 
+.billboard__content h1{
+    font-size: 2vw;
+}
+
+.billboard__content h3{
+    font-size: 1.4vw;
+}
+
 .billboard__button{
-    margin-right: 20px;
+    margin-right: 16px;
     cursor: pointer;
     outline: none;
     border: none;
@@ -22,4 +29,24 @@
     border-radius: 2px;
     color: white;
     background-color: rgba(109,109,110,0.5);
+}
+
+@media only screen and (width<=730px){
+    .billboard{
+        height: 400px;
+    }
+    .billboard__button{
+        padding: 0.4rem 1.3rem;
+    }
+
+    .billboard__content{
+        width: 45%;
+    }
+    .billboard__content h1{
+        font-size: 3vw;
+    }
+    
+    .billboard__content h3{
+        font-size: 2vw;
+    }
 }
