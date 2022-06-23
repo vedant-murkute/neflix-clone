@@ -24,7 +24,7 @@ export default function Login() {
                 <input className="login-input" type="password" id="password"></input>
               </div>
               <div className="login-button">
-                <Link className="login-button--styles" to="/netflix-clone/homepage">Sign In</Link>
+                <Link className="login-button--styles" to="/homepage">Sign In</Link>
               </div>
             </form>
           
