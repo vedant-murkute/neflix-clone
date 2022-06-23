@@ -1,6 +1,6 @@
 # NETFLIX-clone
 
- A dummy netflix website hosted on 
+ A dummy netflix website hosted on https://neflix-clone-vedant-murkute.vercel.app/
 
 ## Available Scripts
 
