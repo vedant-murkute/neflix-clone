@@ -1,6 +1,6 @@
 # NETFLIX-clone
 
-A dummy netflix website hosted on https://neflix-clone-vedant-murkute.vercel.app/
+A dummy netflix website hosted on https://neflix-clone-vedant-murkute.vercel.app/\
 The authentication page is for exploring routing only and signs in with any creds (empty also). The data is extracted from a public api.
 
 ## Available Scripts
